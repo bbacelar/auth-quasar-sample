@@ -1,6 +1,8 @@
-# SAMPLE (SAMPLE-front)
+# Quasar auth sample
 
 A simple app to show the use of Quasar + Vuex + i18n
+
+Demo: https://quasar-auth-sample.netlify.app/
 
 ## Install the dependencies
 ```bash
