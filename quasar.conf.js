@@ -46,7 +46,6 @@ module.exports = function (/* ctx */) {
     // Full list of options: https://quasar.dev/quasar-cli/quasar-conf-js#Property%3A-build
     build: {
       vueRouterMode: 'history', // available values: 'hash', 'history'
-
       // transpile: false,
 
       // Add dependencies for transpiling with Babel (Array of string/regex)
@@ -113,9 +112,9 @@ module.exports = function (/* ctx */) {
       workboxPluginMode: 'GenerateSW', // 'GenerateSW' or 'InjectManifest'
       workboxOptions: {}, // only for GenerateSW
       manifest: {
-        name: 'DOOH',
-        short_name: 'DOOH',
-        description: 'A dooh app',
+        name: 'Quasar Auth',
+        short_name: 'QAuth',
+        description: 'A quasar auth app',
         display: 'standalone',
         orientation: 'portrait',
         background_color: '#ffffff',
