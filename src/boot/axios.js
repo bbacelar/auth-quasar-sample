@@ -7,13 +7,6 @@ const axiosInstance = axios.create({
 });
 
 export default ({ store, router }) => {
-  const isAuthorized = localStorage.getItem('user-data');
-
-  if (isAuthorized) {
-    const userData = JSON.parse(isAuthorized);
-    store.commit('auth/SET_USER_DATA', userData);
-  }
-
   axiosInstance.interceptors.response.use(
     response => response,
     error => {
